@@ -1,20 +1,28 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Journova — Secure Personal Journal & Reflective AI Assistant
 
-# Run and deploy your AI Studio app
+Journova is a production-ready, authenticated web application designed to give users a secure, private environment for personal reflection, daily writing, and multi-turn brainstorming. Built using serverless infrastructure, strict database isolation, and runtime secret management, the app ensures complete data privacy and personalized AI-assisted insight generation.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/c3d2d9bb-dc06-40c9-8bed-061485edf16b
+## Technical Architecture & Core Features
 
-## Run Locally
+* **User Authentication:** Integrated with Firebase Authentication (Google Sign-In) to establish verified user identities and enforce strict account boundaries.
+* **Isolated Cloud Storage:** Operates on Google Cloud Firestore using user-isolated document paths (`users/{uid}/journals`) to prevent cross-account data leakage.
+* **Multi-Turn AI Brainstorming:** Features an interactive assistant configured with custom companion personas (Creative Partner, Socratic Mentor, Action Planner) to deliver contextual synthesis and structured journal reflections.
+* **Secure Key Management:** Leverages Google Cloud Secret Manager to retrieve API credentials dynamically at runtime, eliminating hardcoded keys and ensuring enterprise security standards.
+* **Serverless Backend:** Engineered for deployment on Google Cloud Run to provide low-latency execution and automatic scaling.
 
-**Prerequisites:**  Node.js
+---
 
+## Tech Stack
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+* **Frontend:** HTML5, Modern CSS, JavaScript (ES6 Modules)
+* **Backend:** Node.js, Express.js
+* **Authentication:** Firebase Auth
+* **Database:** Google Cloud Firestore
+* **Security & Configuration:** Google Cloud Secret Manager
+* **Hosting / Infrastructure:** Google Cloud Run
+
+---
+
+## Application Structure
