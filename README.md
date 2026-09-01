@@ -1,7 +1,7 @@
 # Journova
 
 <p align="center">
-  <img src="journova-preview.png" alt="Journova - Personal Journal" width="900">
+  <img src="journova-preview.png" alt="Journova - Personal Journal" width="900"> 
 </p>
 
 Journova is a secure personal journal web application that provides a private space to write, reflect, and interact with an AI assistant.
