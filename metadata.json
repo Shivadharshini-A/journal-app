@@ -1,0 +1,6 @@
+{
+  "name": "Journova",
+  "description": "A mindful personal journal with Google Sign-In, user-isolated Firestore storage, and multi-turn Gemini brainstorming chat.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
