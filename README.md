@@ -1,25 +1,29 @@
 # Journova
 
 <p align="center">
-  <img src="journova.png" alt="Journova" width="900">
+  <img src="journova-preview.png" alt="Journova - Personal Journal" width="900">
 </p>
 
-Journova is a secure personal journal web application built to give users a private space to write, reflect, and interact with an AI assistant.
+Journova is a secure personal journal web application that provides a private space to write, reflect, and interact with an AI assistant.
 
 It combines personal journaling with AI-powered brainstorming and reflection while keeping user data isolated and securely managed using Google Cloud services.
 
-### Key Features
+## Features
 
-- Secure Google Sign-In with Firebase Authentication
-- Personal journals stored in Cloud Firestore
+- Secure Google Sign-In using Firebase Authentication
+- Create, save, and manage personal journal entries
 - AI-powered brainstorming and reflection using Gemini
 - Multi-turn AI conversations
-- Mood and journal theme tracking
-- Secure API key management with Google Cloud Secret Manager
-- Serverless backend deployed with Google Cloud Run
+- Mood and theme tracking
+- Secure API key management using Google Cloud Secret Manager
+- Serverless backend deployed on Google Cloud Run
 
-### Built With
+## Technologies
 
-**HTML · CSS · JavaScript · Node.js · Express.js · Firebase · Firestore · Gemini · Google Cloud Run · Secret Manager**
+HTML · CSS · JavaScript · Node.js · Express.js · Firebase · Firestore · Gemini · Google Cloud Run · Secret Manager
 
-Built as part of the **Accelerate AI with Cloud Run** initiative.
+## About
+
+Journova was built as part of the **Accelerate AI with Cloud Run** initiative, exploring how AI and Google Cloud services can be combined to create a secure and private journaling experience.
+
+**Your Journal. Your Data. Your AI.**
